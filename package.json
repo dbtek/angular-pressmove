@@ -1,0 +1,35 @@
+{
+  "name": "angular-pressmove",
+  "version": "1.0.0",
+  "description": "Pressmove directive for angular",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production browserify index.js -o dist/angular-pressmove.js --debug false -g unassertify -g uglifyify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbtek/angular-pressmove.git"
+  },
+  "keywords": [
+    "angular",
+    "pressmove",
+    "mouse",
+    "event",
+    "drag"
+  ],
+  "author": "Ismail Demirbilek <ce.demirbilek@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbtek/angular-pressmove/issues"
+  },
+  "homepage": "https://github.com/dbtek/angular-pressmove#readme",
+  "dependencies": {
+    "angular": "^1.6.4"
+  },
+  "devDependencies": {
+    "browserify": "^14.3.0",
+    "uglifyify": "^3.0.4",
+    "unassertify": "^2.0.4"
+  }
+}
