@@ -1,6 +1,8 @@
 # angular-pressmove
 Pressmove directive for angular.
 
+**[Demo](https://www.webpackbin.com/bins/-KiUzzjWn6fUtT8VtjVP)**
+
 ### Install
 ```bash
 $ npm i -S angular-pressmove
